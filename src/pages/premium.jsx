@@ -1,10 +1,10 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-function profile() {
+function premuim() {
   return (
-    <div>profile</div>
+    <div>premuim</div>
   )
 }
 
-export default profile
+export default premuim

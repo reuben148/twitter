@@ -1,10 +1,10 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-function profile() {
+function communites() {
   return (
-    <div>profile</div>
+    <div>communites</div>
   )
 }
 
-export default profile
+export default communites

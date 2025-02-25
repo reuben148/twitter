@@ -1,8 +1,11 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function messages() {
   return (
-    <div>messages</div>
+    <div>
+      <p>play</p>
+    </div>
   )
 }
 
