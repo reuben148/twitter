@@ -2,19 +2,19 @@ import React from "react";
 
 const RightSidebar = () => {
   const trends = [
-    { id: 1, topic: "ReactJS", category: "Technology", tweets: "120K" },
-    { id: 2, topic: "Web3", category: "Crypto", tweets: "90K" },
+    { id: 1, topic: "#OPPOReno13Series", category: "Technology", tweets: "120K" },
+    { id: 2, topic: "Tems", category: "Music", tweets: "90K" },
     { id: 3, topic: "Elon Musk", category: "Trending", tweets: "1.2M" },
   ];
 
   const people = [
-    { id: 1, name: "Elon Musk", username: "elonmusk", avatar: "/elon.jpg" },
-    { id: 2, name: "Sundar Pichai", username: "sundarpichai", avatar: "/sundar.jpg" },
-    { id: 3, name: "MrBeast", username: "mrbeast", avatar: "/mrbeast.jpg" },
+    { id: 1, name: "Reubenluka555", username: "reuben_dev", avatar: "/elon.jpg" },
+    { id: 2, name: "Manoahluka", username: "Mano.dev", avatar: "/sundar.jpg" },
+    { id: 3, name: "Paulluka257", username: "Paul", avatar: "/mrbeast.jpg" },
   ];
 
   return (
-    <div className="w-[350px] p-4 hidden lg:block bg-black">
+    <div className="w-[350px] p-4 hidden lg:block bg-black ">
       {/* 🔍 Search Bar */}
       <div className="bg-[#202327] p-3 rounded-full flex items-center gap-2 px-4 shadow-sm ">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-7 h-7 text-white" aria-hidden="true">
@@ -68,7 +68,7 @@ const RightSidebar = () => {
         {people.map((person) => (
           <div key={person.id} className="flex justify-between items-center hover:bg-[#1D1F23] p-3 rounded-lg transition duration-200">
             <div className="flex gap-3 items-center">
-              <img className="w-10 h-10 rounded-full" src='insta.jpeg' alt={person.name} />
+              <img className="w-10 h-10 rounded-full" src='reuben.jpeg' alt={person.name} />
               <div>
                 <p className="text-white font-semibold text-[15px]">{person.name}</p>
                 <p className="text-xs text-gray-500">@{person.username}</p>

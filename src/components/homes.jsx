@@ -24,8 +24,8 @@ const Home = () => {
       time: "5h",
       text: "Building the future of Web3! 🔥 #React #Web3",
       comments: 40,
-      retweets: 200,
-      likes: 1200,
+      retweets: 20,
+      likes: 100,
     },
   ];
 
@@ -92,7 +92,7 @@ const Home = () => {
 
       <div className="sticky top-0 bg-black p-10 border-b border-gray-700 flex justify-around text-gray-400">
           <div className="flex ">
-          <img src="/profile.jpeg" alt="Profile" className="w-12 h-12 rounded-full" />
+          <img src="/shark.jpg" alt="Profile" className="w-12 h-12 rounded-full" />
           </div>
       </div>
     </div>

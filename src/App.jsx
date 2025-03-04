@@ -17,13 +17,14 @@ import Homes from "./components/homes";
 function App() {
   return (
     <BrowserRouter>
-      <div className="flex min-h-screen">
+    <div className="grid grid-cols-1 w-full bg-black">
+      <div className="grid grid-cols-5 min-h-screen max-w-[1028px] m-auto">
         {/* Sidebar */}
         <Sidebar />
 
         {/* Main Content */}
-        <Homes />
-        <div className="flex-1 bg-black text-white">
+        {/* <Homes /> */}
+        <div className="flex-1 bg-black col-span-3 text-white">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/explore" element={<Explore />} />
@@ -39,7 +40,8 @@ function App() {
         </div>
 
         {/* Right Sidebar (Trending, Who to Follow) */}
-        <RightSidebar />
+        
+      </div>
       </div>
     </BrowserRouter>
   );
