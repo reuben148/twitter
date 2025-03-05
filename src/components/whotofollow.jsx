@@ -9,7 +9,7 @@ const RightSidebar = () => {
 
   return (
     <div>
-      <div className="bg-[#16181C] p-4 mt-5 rounded-2xl shadow-sm">
+      <div className=" p-4 mt-5 rounded-2xl shadow-sm">
         <h2 className="text-xl font-extrabold text-white mb-3">Who to follow</h2>
         {people.map((person) => (
           <div
