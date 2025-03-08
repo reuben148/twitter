@@ -8,9 +8,9 @@ const RightSidebar = () => {
   ];
 
   const people = [
-    { id: 1, name: "Reubenluka555", username: "reuben_dev", avatar: "/elon.jpg" },
-    { id: 2, name: "Manoahluka", username: "Mano.dev", avatar: "/sundar.jpg" },
-    { id: 3, name: "Paulluka257", username: "Paul", avatar: "/mrbeast.jpg" },
+    { id: 1, name: "Reubenluka555", username: "reuben_dev", avatar: "/reuben.jpeg" },
+    { id: 2, name: "Manoahluka", username: "Mano.dev", avatar: "/shark.jpg" },
+    { id: 3, name: "Paulluka257", username: "Paul", avatar: "/yamal.jpeg" },
   ];
 
   return (
@@ -68,7 +68,7 @@ const RightSidebar = () => {
         {people.map((person) => (
           <div key={person.id} className="flex justify-between items-center hover:bg-[#1D1F23] p-3 rounded-lg transition duration-200">
             <div className="flex gap-3 items-center">
-              <img className="w-10 h-10 rounded-full" src='reuben.jpeg' alt={person.name} />
+              <img className="w-10 h-10 rounded-full" src='yamal.jpeg' alt={person.name} />
               <div>
                 <p className="text-white font-semibold text-[15px]">{person.name}</p>
                 <p className="text-xs text-gray-500">@{person.username}</p>

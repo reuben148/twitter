@@ -45,6 +45,7 @@ const Profile = () => {
           </div>
           <p className="text-gray-400">@reubenluka555</p>
           <p className="mt-3 text-gray-300">Web Developer | Tech Enthusiast | Open Source Contributor</p>
+          <p className="mt-3 text-blue-700 cursor-pointer">x.com/reubenluka555</p>
           <div className="flex items-center text-gray-400 mt-3">
             <i className="fas fa-calendar-alt mr-2"></i> Joined February 2024
           </div>
