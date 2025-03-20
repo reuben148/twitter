@@ -1,10 +1,21 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
+import React from 'react';
+import Communities from '../components/communities';
+import RightSidebar from '../components/rightsidebar';
 
-function communites() {
+function CommunitiesPage() {
   return (
-    <div>communites</div>
-  )
+    <div className="flex h-screen">
+      {/* Main Content */}
+      <div className="w-[90%] flex-1 border-r border-gray-300 p-4 overflow-y-auto">
+        <Communities />
+      </div>
+      
+      {/* Right Sidebar */}
+      <div className="w-[10%] p-4 hidden lg:block">
+        <RightSidebar />
+      </div>
+    </div>
+  );
 }
 
-export default communites
+export default CommunitiesPage;
