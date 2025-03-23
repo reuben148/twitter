@@ -20,6 +20,16 @@ function communities() {
                 </svg>
         </div>
         </div>
+        <div className='border-b [mt-15px]'>
+        </div>
+
+        <div className='flex justify-between mt-[10px]'>
+          <p className='border rounded-[10px] w-[55px] text-center'>Sport</p>
+          <p className='border rounded-[10px] w-[95px] text-center'>Technology</p>
+          <p className='border rounded-[10px] w-[45px] text-center'>Art</p>
+          <p className='border rounded-[10px] w-[65px] text-center'>Politics</p>
+          <p className='border rounded-[10px] w-[65px] text-center'>Gaming</p>
+        </div>
     </div>
   )
 }

@@ -6,7 +6,7 @@ function CommunitiesPage() {
   return (
     <div className="flex h-screen">
       {/* Main Content */}
-      <div className="w-[90%] flex-1 border-r border-gray-300 p-4 overflow-y-auto">
+      <div className="w-[90%] flex-1 border-r border-gray-200 p-4 overflow-y-auto">
         <Communities />
       </div>
       
